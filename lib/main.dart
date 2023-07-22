@@ -26,9 +26,10 @@ class _MyAppState extends State<MyApp> {
           title: const Text('This app title'),
         ),
         body: currentIndex == 0
-            ? const SizedBox(
+            ? SizedBox(
                 width: double.infinity,
                 height: double.infinity,
+                child: Image.asset('assets/images/bikers.jpg'),
               )
             : Container(
                 width: double.infinity,
